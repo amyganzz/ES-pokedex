@@ -1,0 +1,20 @@
+{
+  "name": "ematic-solutions-pokedex",
+  "version": "1.0.0",
+  "description": "pokedex",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "amyganzz",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "mongoose": "^6.6.0",
+    "dotenv": "^16.0.2",
+    "node-fetch": "^3.2.10"
+  }
+}
